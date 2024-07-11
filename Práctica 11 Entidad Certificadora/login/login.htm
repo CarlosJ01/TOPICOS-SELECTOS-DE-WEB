@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Práctica 11</title>
+
+        <link rel="stylesheet" href="css/login.css">
+    </head>
+    <body>
+        <div id="contenedor">
+            <div class="txt-centro txt-blanco">
+                <h1>Práctica 11</h1>
+                <h2>Login - Entidad Certificadora</h2>
+            </div>
+            <hr>
+            <div class="txt-centro txt-blanco centrar">
+                <form action="http://localhost/tsw/practica11/Servidor/servidor1.php" id="form-login" method="post">
+                    <div class="form-campo">
+                        <label for="usuario">Usuario : </label>
+                        <input type="text" name="usuario" id="usuario" required>
+                    </div>
+                    <div class="form-campo">
+                        <label for="password">Contraseña : </label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                    <div class="form-campo">
+                        <label for="firma">Firma : </label>
+                        <input type="text" id="firma" required>
+                    </div>
+                    <input type="hidden" name="certificado" id="certificado">
+                    <br>
+                    <div>
+                        <input type="submit" class="form-boton" value="Enviar">
+                        <input type="reset" class="form-boton" value="Borrar">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- JQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <!-- Libreria para MD5 -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+        <!-- Script -->
+        <script src="js/login.js"></script>
+    </body>
+</html>

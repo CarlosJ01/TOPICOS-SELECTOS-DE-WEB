@@ -1,0 +1,41 @@
+#contenedor{
+    min-height: 95vh;
+    background-color: #0f1cd8;
+}
+.txt-centro{
+    text-align: center;
+}
+.txt-blanco{
+    color: white;
+}
+.form-campo{
+    font-size: 1.5em;
+    display: grid;
+    margin: 0.5em 1em;
+}
+.form-campo > label{
+    text-align: left;
+}
+.form-campo > input{
+    width: 20em;
+    height: 2em;
+    margin-left: 3em;
+    font-size: 0.7em;
+}
+.centrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+}
+.form-boton{
+    background-color: red;
+    font-size: 1.5em;
+    border-radius: 10px;
+    margin: 0.5em 1em;
+    padding: 0.3em 0.5em;
+}
+.form-boton:hover{
+    background-color: crimson;
+    color: white;
+}

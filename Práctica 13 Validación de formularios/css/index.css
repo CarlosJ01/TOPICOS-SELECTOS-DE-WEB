@@ -1,0 +1,16 @@
+html, body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.fullPantalla {
+    min-height: 95vh;
+    width: 100%;
+}
+
+#imagenRegirstro{
+    min-height: 95vh;
+    width: 100%;
+    border-radius: 1em;
+}

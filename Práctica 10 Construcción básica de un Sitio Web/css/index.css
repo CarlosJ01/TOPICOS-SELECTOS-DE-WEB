@@ -1,0 +1,139 @@
+body{
+    background: black;
+}
+#contenedor{
+    width: 100%;
+}
+
+header{
+    color: #007bff;
+    text-align: center;
+}
+.color-header{
+    background-color: #131921;
+}
+#logotipo{
+    width: 6em;
+    height: 3em;
+    text-align: center;
+    margin: auto;
+}
+#eslogan{
+    font-size: 1.5em;
+    font-family: 'Teko', sans-serif;
+    margin: auto;
+}
+.centrar-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 7em;
+}
+.boton-header{
+    font-size: 2.5em;
+    background: none;
+    color: #007bff;
+}
+.boton-header:hover{
+    background: none;
+    color: #0056b3;
+}
+#buscar{
+    width: 30em;
+    height: 2.5em;
+    border-radius: 5px;
+    border-color: #007bff;
+    color: black;
+    font-size: 1em;
+    margin-right: 2em;
+}
+
+section{
+    background: #eaeded;
+    color: black;
+    min-height: 50em;
+}
+
+#barraNavegacion{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+#barraNavegacion > li > a{
+    color: #eaeded;
+    font-size: 1.3em;
+}
+#barraNavegacion > li > a:hover{
+    color: #0056b3;
+}
+.color-barra-navegacion{
+    background-color: #343a40;
+}
+.titulo{
+    color: #007bff;
+    font-size: 3em;
+    font-family: 'Teko', sans-serif;
+}
+.imagen-larga{
+    border-radius: 1em;
+    height: 27em;
+    width: 20em;
+}
+.subtitulo{
+    color: #007bff;
+    font-size: 2em;
+    font-family: 'Teko', sans-serif;
+}
+
+footer {
+    background: #232f3e;
+    color: #dddad8;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+#redesSociales{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: minmax(4em, auto);
+    gap: 1em;
+    margin-top: 1em;
+    min-height: 7em;
+}
+#redesSociales > *{
+    margin: auto;
+}
+.redSocial{
+    font-size: 3em;
+    color: #dddad8;
+}
+.redSocial:hover{
+    color: #ffffff;
+}
+#copyrigth{
+    background: #131a22;
+    height: 5em;
+    padding-top: 1em;
+}
+#copyrigth p {
+    margin-top: 1em;
+}
+.centrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 1em;
+}
+#suscripcion{
+    width: 25em;
+    height: 2.5em;
+    border-radius: 5px;
+    border-color: #007bff;
+    color: black;
+    font-size: 1em;
+    margin-right: 1em;
+}
+.footer-color{
+    background: #232f3e;
+}

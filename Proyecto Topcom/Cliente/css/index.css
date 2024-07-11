@@ -1,0 +1,195 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#logo{
+    width: 10em;
+}
+
+.text-azul{
+    color:#1190cb!important
+}
+a.text-azul:focus,
+a.text-azul:hover{
+    color:#1190cb!important
+}
+
+.bg-azul{
+    background: #1190cb;
+    color: white;
+}
+
+#eslogan{
+    font-style: italic;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+footer span{
+    color: #7dccff;
+}
+
+.sociales{
+    color: white;
+    font-size: 3em;
+}
+.sociales:hover{
+    color: white;
+}
+
+.features_items {
+    overflow: hidden;
+}
+
+/* Titulos */
+.left-sidebar h2:after,
+h2.title:after {
+    content: " ";
+    position: absolute;
+    border: 1px solid #f8f8f8;
+    bottom: 8px;
+    left: 0;
+    width: 100%;
+    height: 0;
+    z-index: -2;
+}
+h2.title:before {
+    content: " ";
+    position: absolute;
+    background: #fff;
+    bottom: -6px;
+    width: 220px;
+    height: 30px;
+    z-index: -1;
+    left: 50%;
+    margin-left: -110px;
+}
+h2.title {
+    color: #1190cb;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 30px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+/* Imagenes */
+.product-image-wrapper {
+    border: 1px solid #F7F7F5;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.single-products {
+    position: relative;
+}
+.single-products:hover .product-overlay {
+    display: block;
+    height: 100%;
+}
+
+/* Informacion del producto */
+.productinfo h2 {
+    color: #1190cb;
+    font-size: 24px;
+    font-weight: 700;
+}
+.product-overlay h2 {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 700;
+}
+.productinfo p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #696763;
+}
+.productinfo img {
+    width: 100%;
+}
+.productinfo {
+    position: relative;
+}
+
+/* Pantallita */
+.product-overlay {
+    background: rgba(125, 204, 255, .8);
+    top: 0;
+    display: none;
+    height: 0;
+    position: absolute;
+    -webkit-transition: height 500ms ease 0s;
+    transition: height 500ms ease 0s;
+    width: 100%;
+    display: block;
+}
+.single-products:hover .product-overlay {
+    display: block;
+    height: 100%;
+}
+.product-overlay .overlay-content {
+    bottom: 0;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+.product-overlay .add-to-cart {
+    border: 0 none;
+    border-radius: 0;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+.product-overlay p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+}
+
+/* Logotipo */
+.new,
+.sale {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* Productos */
+.centrar{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centro{
+    width: 120px;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Práctica 12</title>
+
+        <link rel="stylesheet" href="css/login.css">
+    </head>
+    <body>
+        <div id="contenedor">
+            <div class="txt-centro txt-blanco">
+                <h1>Práctica 12</h1>
+                <h2>Protección contra Bots</h2>
+            </div>
+            <hr>
+            <div class="txt-centro txt-blanco centrar">
+                <form action="" method="get" id="form-captcha">
+                    <div class="form-campo">
+                        <label for="usuario">Usuario : </label>
+                        <input type="text" name="usuario" id="usuario" required>
+                    </div>
+                    <div class="form-campo">
+                        <label for="password">Contraseña : </label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                    <div class="form-campo">
+                        <h4>Captcha</h4>
+                        <input class="jCaptcha" type="text" placeholder="Resuelve el Captcha" required>
+                    </div>
+                    <div>
+                        <input type="submit" id="submit" class="form-boton" value="Enviar">
+                        <input type="reset" class="form-boton" value="Borrar">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Libreria para el Captcha -->
+        <script src="js/jCaptcha.js"></script>
+        <!-- Script para el Captcha -->
+        <script src="js/captcha.js"></script>
+    </body>
+</html>
